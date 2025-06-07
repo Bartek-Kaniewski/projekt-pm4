@@ -8,7 +8,8 @@ Aplikacja internetowa stworzona w celu symulowania egzaminów zawodowych z kwali
 
 - HTML  
 - CSS  
-- PHP  
+- PHP
+- JS
 - MySQL (wymagana baza danych)
 
 ## Struktura plików
@@ -19,8 +20,9 @@ Aplikacja internetowa stworzona w celu symulowania egzaminów zawodowych z kwali
 - `e12.php`, `e13.php`, `e14.php`, `ee08.php`, `ee09.php` – strony z quizami z poszczególnych kwalifikacji. Każda z nich:
   - wyświetla pytania w losowej kolejności
   - umożliwia wybór odpowiedzi
-  - podświetla poprawną i błędną odpowiedź
+  - podświetla poprawną i błędną odpowiedź (JavaScript)
   - zlicza punkty i wyświetla je na koniec
+- `style.css` - styl całej strony
 - `pytania.sql` – gotowa baza danych z pytaniami i odpowiedziami do poszczególnych kwalifikacji
 
 ## Uwaga
